@@ -8,7 +8,7 @@ define(['util/i18n'], function(i16n) {
             recognition.interimResults = true;
             recognition.continuous = false;
             //recognition.lang = i16n('locale');
-            recognition.lang = 'ru-RU';
+            recognition.lang = 'uk-UA';
 
             recognition.onstart = function() {
                 result = '';
