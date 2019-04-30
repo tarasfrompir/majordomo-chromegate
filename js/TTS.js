@@ -47,7 +47,7 @@ define(['util/Storage', 'util/i18n'], function(Storage, i18n) {
         if (!TTS.isSupported()) return [];
         return speechSynthesis.getVoices().filter(function(v) {
             //return v.lang === i18n('locale');
-            return v.lang === 'ru-RU';
+            return v.lang === 'uk-UA';
         });
     };
 
