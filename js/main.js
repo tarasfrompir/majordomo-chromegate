@@ -34,7 +34,7 @@ require(
             payload.action = 'Subscribe';
             payload.data = new Object();
             payload.data.TYPE = 'events';
-            payload.data.EVENTS = 'SAY,SAYTO,ASK';
+            payload.data.EVENTS = 'SAY,SAYTO,ASK,SAYREPLY';
             console.log('Subscribing to ' + payload.data.EVENTS);
             wsSocket.send(JSON.stringify(payload));
         }
